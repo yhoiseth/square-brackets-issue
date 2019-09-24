@@ -1,10 +1,19 @@
 {
-  "private": true,
-  "license": "MIT",
+  "name": "hello-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "lint-fix": "prettier --write **/**/*"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
-  "devDependencies": {
-    "prettier": "^1.16.4"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.0.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
   }
 }
