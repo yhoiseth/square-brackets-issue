@@ -14,7 +14,8 @@
   "dependencies": {
     "next": "^9.0.6",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "shell-quote": "^1.7.2"
   },
   "devDependencies": {
     "husky": "^3.0.5",
